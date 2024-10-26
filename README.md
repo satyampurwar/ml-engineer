@@ -264,3 +264,5 @@ To facilitate deployment, Docker images are created by aggregating necessary art
 - Develop script `run.sh` to execute MLflow models serve command.
 
 - Create `.dockerignore` file to ignore copying files in WORKDIR of image/container.
+
+- Construct Dockerfile to package all components into a Docker image, ensuring efficient deployment and scalability.
