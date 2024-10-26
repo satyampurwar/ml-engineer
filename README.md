@@ -199,3 +199,8 @@ chmod +x shell/app_quality.sh
 ```bash
 mlflow server --backend-store-uri mlruns/ --default-artifact-root mlruns/ --host 127.0.0.1 --port 5000
    ```
+
+3. **Run Experiment**: Execute an experiment to generate a model artifact with the following command.
+```bash
+mlflow run . -P <parameters>
+```
