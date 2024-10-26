@@ -220,11 +220,13 @@ chmod +x shell/pyenv.sh
 5. **Activate Conda Environment**: Activate the conda environment created during the experiment execution.
 
 6. **Dependency Installation**: Install the required dependency in activated environment.
+
 ```bash
 pip install virtualenv
 ```
 
 7. **API Endpoint Generation**: Create an API endpoint to serve the model using -
+
 ```bash
 mlflow models serve -m mlruns/<experiment_id>/<run_id>/artifacts/model/ -h 127.0.0.1 -p 1234
 ```
