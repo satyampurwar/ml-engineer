@@ -216,3 +216,5 @@ The optional parameter `split_size` defaults to `0.2`.
 chmod +x shell/pyenv.sh
 ./shell/pyenv.sh
 ```
+
+5. **Activate Conda Environment**: Activate the conda environment created during the experiment execution.
