@@ -113,3 +113,9 @@ Using Sphinx for documentation generation.
      ```bash
      pip install -e .
      ```
+   - Option 2: Build and install: produces egg-info folder as well as dist folder containing tar.gz and whl file.
+     ```bash
+     python3 -m pip install --upgrade build
+     python3 -m build
+     pip install dist/housing_value-0.0.0-py3-none-any.whl
+     ```
