@@ -258,3 +258,7 @@ To facilitate deployment, Docker images are created by aggregating necessary art
 - Move the wheel file (`housing_value-0.0.0-py3-none-any.whl`) from the dist directory to `<base>/ml-engineering/deploy/docker`.
 
 - Copy the `setup.cfg` from the project root to `<base>/ml-engineering/deploy/docker`, ensuring it contains only data required for inference.
+
+2. **Script and Configuration Creation:**
+
+- Develop script `run.sh` to execute MLflow models serve command.
