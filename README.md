@@ -134,3 +134,12 @@ Using Sphinx for documentation generation.
 
 2. Check configuration files:
    - Make sure to create Makefile.
+
+3. Generate Sphinx project:
+   ```bash
+   sphinx-quickstart
+   ```
+
+4. Update configuration files:
+   - Modify `source/conf.py` and `source/index.rst` as needed.
+   - Reference files are available in the `reference` directory.
