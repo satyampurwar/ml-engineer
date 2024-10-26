@@ -80,3 +80,10 @@ python src/housing_value/ingest_data.py --help
 python src/housing_value/train.py --help
 python src/housing_value/score.py --help
 ```
+
+## Testing 
+
+Install pytest:
+```bash
+sudo apt install python3-pytest
+```
