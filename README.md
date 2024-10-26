@@ -101,3 +101,15 @@ Run tests:
 pytest
 pytest <test_directory>/<test.py>
 ```
+
+## Documentation
+
+Using Sphinx for documentation generation.
+
+### Prerequisites
+
+1. Install the package:
+   - Option 1: Editable mode (dependent on pyproject.toml): produces egg-info folder.
+     ```bash
+     pip install -e .
+     ```
