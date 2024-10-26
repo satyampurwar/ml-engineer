@@ -64,3 +64,10 @@ sudo apt install black isort flake8
 | flake8 | Linter          | `flake8 <script.py>` |
 
 **Note:** Configurations are specified in `setup.cfg` and `.vscode/settings.json` (for VS Code users).
+
+### Maintaining Code Quality
+
+```bash
+chmod +x shell/src_quality.sh
+./shell/src_quality.sh
+```
