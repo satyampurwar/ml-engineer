@@ -119,3 +119,8 @@ Using Sphinx for documentation generation.
      python3 -m build
      pip install dist/housing_value-0.0.0-py3-none-any.whl
      ```
+
+2. Install Sphinx:
+   ```bash
+   sudo apt install python3-sphinx
+   ```
