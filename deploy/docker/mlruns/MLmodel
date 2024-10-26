@@ -1,9 +1,6 @@
 artifact_path: model
 flavors:
   python_function:
-    env:
-      conda: conda.yaml
-      virtualenv: python_env.yaml
     loader_module: mlflow.sklearn
     model_path: model.pkl
     predict_fn: predict
@@ -15,8 +12,6 @@ flavors:
     sklearn_version: 1.5.2
 mlflow_version: 2.17.0
 model_size_bytes: 43309221
-model_uuid: 6c7a59ed9fea43d0b94cdf58df98cc72
-run_id: 7e89c76c0afc4eedb71a6764da59f922
 signature:
   inputs: '[{"type": "double", "name": "longitude", "required": true}, {"type": "double",
     "name": "latitude", "required": true}, {"type": "double", "name": "housing_median_age",
