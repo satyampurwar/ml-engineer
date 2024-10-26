@@ -194,3 +194,8 @@ cd ..
 chmod +x shell/app_quality.sh
 ./shell/app_quality.sh
    ```
+
+2. **Tracking UI**: Launch the MLflow tracking server using the command.
+```bash
+mlflow server --backend-store-uri mlruns/ --default-artifact-root mlruns/ --host 127.0.0.1 --port 5000
+   ```
