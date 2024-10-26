@@ -148,3 +148,7 @@ Using Sphinx for documentation generation.
    ```bash
    sphinx-apidoc -o ./source ../src/housing_value
    ```
+
+6. Update configuration files:
+   - Modify `source/housing_value.rst` and `source/index.rst` as needed.
+   - Reference files are available in the `reference` directory.
