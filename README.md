@@ -256,3 +256,5 @@ To facilitate deployment, Docker images are created by aggregating necessary art
 - Transfer the `requirements.txt` file from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker`.
 
 - Move the wheel file (`housing_value-0.0.0-py3-none-any.whl`) from the dist directory to `<base>/ml-engineering/deploy/docker`.
+
+- Copy the `setup.cfg` from the project root to `<base>/ml-engineering/deploy/docker`, ensuring it contains only data required for inference.
