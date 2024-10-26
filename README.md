@@ -188,3 +188,9 @@ cd ..
 ## Application Packaging with MLflow
 
 **Note:** The file hierarchy for MLflow is structured as follows: `MLproject > app.py`.
+
+1. **Maintaining Code Quality**
+```bash
+chmod +x shell/app_quality.sh
+./shell/app_quality.sh
+   ```
