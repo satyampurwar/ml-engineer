@@ -190,18 +190,22 @@ cd ..
 **Note:** The file hierarchy for MLflow is structured as follows: `MLproject > app.py`.
 
 1. **Maintaining Code Quality**
+
 ```bash
 chmod +x shell/app_quality.sh
 ./shell/app_quality.sh
    ```
 
 2. **Tracking UI**: Launch the MLflow tracking server using the command.
+
 ```bash
 mlflow server --backend-store-uri mlruns/ --default-artifact-root mlruns/ --host 127.0.0.1 --port 5000
    ```
 
 3. **Run Experiment**: Execute an experiment to generate a model artifact with the following command.
+
 ```bash
 mlflow run . -P <parameters>
 ```
+
 The optional parameter `split_size` defaults to `0.2`.
