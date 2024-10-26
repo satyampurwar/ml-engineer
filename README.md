@@ -95,3 +95,9 @@ Maintain test code quality:
 chmod +x shell/tests_quality.sh
 ./shell/tests_quality.sh
 ```
+
+Run tests:
+```bash
+pytest
+pytest <test_directory>/<test.py>
+```
