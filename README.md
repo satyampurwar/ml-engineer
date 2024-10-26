@@ -184,3 +184,7 @@ cd ..
 ```
 
 **Note:** The documentation file hierarchy in the `source` directory is: `index.rst > modules.rst > housing_value.rst`.
+
+## Application Packaging with MLflow
+
+**Note:** The file hierarchy for MLflow is structured as follows: `MLproject > app.py`.
