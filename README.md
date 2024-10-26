@@ -319,3 +319,37 @@ docker push <dockerhub_username>/mle:rootuser
 docker push <dockerhub_username>/mle:nonrootuser 
 docker push <dockerhub_username>/mle:multistage 
 ```
+
+2. **List Images and Containers:** To view all Docker images and containers on system.
+   
+- **Images:** 
+
+```bash 
+docker image ls 
+```
+   
+- **Containers:** 
+
+```bash 
+docker ps --all 
+```
+
+3. **View Logs:** Access the logs of a running container.
+   
+```bash 
+docker logs <container_name> 
+```
+
+4. **Delete Containers and Images:** Remove a specific container or image using these commands:
+
+- **Containers:** 
+
+```bash 
+docker rm -f <container_name> 
+```
+  
+- **Images:** 
+
+```bash 
+docker rmi <image_name> 
+```
