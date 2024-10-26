@@ -252,3 +252,5 @@ To facilitate deployment, Docker images are created by aggregating necessary art
 1. **Artifact Aggregation:** 
 
 - Copy model artifacts (`MLmodel` and `model.pkl`) from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker/mlruns`. Ensure unnecessary metadata is cleaned from the `MLmodel`.
+
+- Transfer the `requirements.txt` file from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker`.
