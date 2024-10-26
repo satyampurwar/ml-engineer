@@ -204,3 +204,4 @@ mlflow server --backend-store-uri mlruns/ --default-artifact-root mlruns/ --host
 ```bash
 mlflow run . -P <parameters>
 ```
+The optional parameter `split_size` defaults to `0.2`.
