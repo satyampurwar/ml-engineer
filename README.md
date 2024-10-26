@@ -87,3 +87,5 @@ Install pytest:
 ```bash
 sudo apt install python3-pytest
 ```
+
+**Note:** Configurations are specified in `setup.cfg`.
