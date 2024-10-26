@@ -218,3 +218,8 @@ chmod +x shell/pyenv.sh
 ```
 
 5. **Activate Conda Environment**: Activate the conda environment created during the experiment execution.
+
+6. **Dependency Installation**: Install the required dependency in activated environment.
+```bash
+pip install virtualenv
+```
