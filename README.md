@@ -120,9 +120,11 @@ Using Sphinx for documentation generation.
      pip install dist/housing_value-0.0.0-py3-none-any.whl
      ```
 
-2. Install Sphinx:
+2. Install Sphinx & Packages for building documentation:
    ```bash
    sudo apt install python3-sphinx
+   pip install sphinx sphinx-rtd-theme matplotlib
+   pip install sphinxcontrib-napoleon
    ```
 
 ### Generating Documentation
