@@ -124,3 +124,13 @@ Using Sphinx for documentation generation.
    ```bash
    sudo apt install python3-sphinx
    ```
+
+### Generating Documentation
+
+1. Navigate to the docs directory:
+   ```bash
+   cd docs
+   ```
+
+2. Check configuration files:
+   - Make sure to create Makefile.
