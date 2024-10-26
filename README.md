@@ -160,3 +160,10 @@ Using Sphinx for documentation generation.
    make clean
    make html
    ```
+
+8. Return to the project root:
+   ```bash
+   cd ..
+   ```
+
+**Note:** The documentation file hierarchy in the `source` directory is: `index.rst > modules.rst > housing_value.rst`.
