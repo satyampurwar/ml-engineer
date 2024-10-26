@@ -254,3 +254,5 @@ To facilitate deployment, Docker images are created by aggregating necessary art
 - Copy model artifacts (`MLmodel` and `model.pkl`) from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker/mlruns`. Ensure unnecessary metadata is cleaned from the `MLmodel`.
 
 - Transfer the `requirements.txt` file from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker`.
+
+- Move the wheel file (`housing_value-0.0.0-py3-none-any.whl`) from the dist directory to `<base>/ml-engineering/deploy/docker`.
