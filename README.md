@@ -223,3 +223,8 @@ chmod +x shell/pyenv.sh
 ```bash
 pip install virtualenv
 ```
+
+7. **API Endpoint Generation**: Create an API endpoint to serve the model using -
+```bash
+mlflow models serve -m mlruns/<experiment_id>/<run_id>/artifacts/model/ -h 127.0.0.1 -p 1234
+```
