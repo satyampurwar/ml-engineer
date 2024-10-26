@@ -28,3 +28,4 @@ This repository contains the code and documentation for developing and deploying
 ### Research & Development
 
 - Reference code: `<base>/ml-engineering/reference/nonstandardcode`
+- Working notebooks: `<base>/ml-engineering/notebooks/working`
