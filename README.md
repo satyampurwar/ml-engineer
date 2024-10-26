@@ -143,3 +143,8 @@ Using Sphinx for documentation generation.
 4. Update configuration files:
    - Modify `source/conf.py` and `source/index.rst` as needed.
    - Reference files are available in the `reference` directory.
+
+5. Generate API documentation:
+   ```bash
+   sphinx-apidoc -o ./source ../src/housing_value
+   ```
