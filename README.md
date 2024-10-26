@@ -244,3 +244,11 @@ curl -X POST -H "Content-Type: application/json" --data '{"dataframe_split": {"c
 ```bash 
 curl -X POST -H "Content-Type: application/json" --data '{"inputs": [{"longitude": -118.39, "latitude": 34.12, "housing_median_age": 29.0, "total_rooms": 6447.0, "total_bedrooms": 1012.0, "population": 2184.0, "households": 960.0, "median_income": 8.2816, "ocean_proximity": "<1H OCEAN"}]}' http://127.0.0.1:1234/invocations 
 ```
+
+### Deployment Readiness
+
+To facilitate deployment, Docker images are created by aggregating necessary artifacts and configurations.
+
+1. **Artifact Aggregation:** 
+
+- Copy model artifacts (`MLmodel` and `model.pkl`) from `mlruns/<experiment_id>/<run_id>/artifacts/model` to `<base>/ml-engineering/deploy/docker/mlruns`. Ensure unnecessary metadata is cleaned from the `MLmodel`.
